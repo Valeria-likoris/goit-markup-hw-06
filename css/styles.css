@@ -541,7 +541,6 @@ body{
     font-size: 16px;
     line-height: 1.25;
     letter-spacing: 0.03em;
-    transition: color var(--transition-dur-and-func);
 }
 .footer-form-input::placeholder{
     font-weight: 400;
@@ -549,7 +548,7 @@ body{
     line-height: 1.25;
     letter-spacing: 0.03em;
     
-     color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.6);
 }
 .footer-form-input:focus{
     color: var(--white-color);
@@ -801,7 +800,6 @@ body{
     background-color: var(--accent-blue);
     border: transparent;
     background-image: url(../images/svg/yes.svg);
-    background-size: contain;
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
